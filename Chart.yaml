@@ -3,4 +3,4 @@ name: throttler
 description: A Helm chart for the throttler microservice
 type: application
 version: 0.1.0
-appVersion: "20591872049"
+appVersion: "23864111862"
