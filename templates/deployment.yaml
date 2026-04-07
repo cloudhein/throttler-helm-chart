@@ -11,7 +11,8 @@ spec:
   selector:
     matchLabels:
       {{- include "throttler.selectorLabels" . | nindent 6 }}
-  strategy: {}
+  strategy:
+    {{- toYaml .Values.updateStrategy | nindent 4 }}
   template:
     metadata:
       labels:
